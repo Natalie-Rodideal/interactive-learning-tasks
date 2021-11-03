@@ -9,6 +9,6 @@ resource "aws_iam_user" "multiuser" {
   ])
 
   tags = {
-    tag-key = "Team = DevOps"
+    tag-key = "Team=DevOps"
   }
 }
