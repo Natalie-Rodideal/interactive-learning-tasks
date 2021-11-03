@@ -7,8 +7,8 @@ resource "aws_iam_user" "multiuser" {
   for_each = toset([
     "bob",
   ])
-  
+
   tags = {
-    tag-key = "tag-value"
+    tag-key = "DevOps"
   }
 }
