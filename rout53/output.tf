@@ -1,9 +1,9 @@
-output “zone_id” {
+output zone_id {
   value = aws_route53_record.www.zone_id
 }
-output “name” {
+output name {
   value = aws_route53_record.www.name
 }
-output “records” {
+output records {
   value = aws_route53_record.www.records
 }
